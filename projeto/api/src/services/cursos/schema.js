@@ -7,7 +7,11 @@ const schema = new nodeRestful.mongoose.Schema({
     preco: { type: Number, min: 0 },
     categoria: {
         type: String, uppercase: true,
-        enum: ['INFORMATICA', 'ENGENHARIA', 'ADMINISTRACAO', 'REDES']
+        enum: ['INFORMATICA', 
+            'ENGENHARIA', 
+            'ADMINISTRACAO', 
+            'REDES'
+        ]
     }
 });
 
