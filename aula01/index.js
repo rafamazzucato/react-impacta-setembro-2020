@@ -15,3 +15,11 @@ t2 += 1;
 t3 += 1;
 console.log(t2);
 console.log(t3);
+
+{
+    atividades: [
+        {descricao: "INSTRUTOR", duracao: 30},
+        {descricao: "AVALIADOR", duracao: 30},
+        {descricao: "DESENVOLVEDOR", duracao: 30}
+    ]
+}
