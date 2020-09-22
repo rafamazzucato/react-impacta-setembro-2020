@@ -3,7 +3,7 @@ import React from 'react';
 export class Componente2 extends React.Component {
 
     state = {
-        nome : ''
+        nome : 'Rafael'
     }
 
     render() {
